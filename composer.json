@@ -1,0 +1,18 @@
+{
+    "name": "sonus/php-hardway-hello-world",
+    "description": "A composer way to create a hello world with php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sonus Sundar",
+            "email": "sonus.m.sundar@eqs.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Greetings\\": "src/"
+        }
+    }
+}
